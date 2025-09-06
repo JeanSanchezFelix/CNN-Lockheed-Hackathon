@@ -1,0 +1,46 @@
+# UPRM-Hackathon-2025 - AWS SageMaker Access Instructions
+
+## Login Information
+- **AWS Console**: https://console.aws.amazon.com/
+- **Account ID**: 768238137241
+- **Your Username**: [See your credentials file]
+- **Your Password**: [See your credentials file]
+
+## How to Access SageMaker Studio
+
+### Step 1: Login to AWS Console
+1. Go to: https://console.aws.amazon.com/
+2. Click "Sign in to a different account"
+3. Enter Account ID: `768238137241`
+4. Enter your provided username and password
+
+### Step 2: Navigate to SageMaker
+1. In the AWS Console search bar, type "SageMaker"
+2. Click on the "Amazon SageMaker" service
+
+### Step 3: Open Studio
+1. In the left navigation menu, click "Studio"
+2. Find your username in the list
+3. Click "Open Studio" next to your name
+4. Studio will open in a new tab (may take 2-3 minutes)
+
+### Step 4: Start Coding
+1. Choose "Code Editor" or "JupyterLab" 
+2. Default instance type is ml.c5.2xlarge (8 vCPU, 16GB RAM)
+3. Instance auto-stops after 60 minutes of inactivity
+
+## GPU Instances
+- GPU instances (ml.g6.xlarge) are available for machine learning tasks
+- To use a GPU instance, select "ml.g6.xlarge" when creating a new notebook
+- When you select a GPU instance, the system will automatically use a GPU-optimized image
+- GPU instances automatically shut down after 30 minutes of inactivity
+- Use GPU instances only when needed for ML/AI workloads to optimize costs
+- Your instructor will provide details on when to use GPU instances
+
+## Important Notes
+- (Clock) Instances auto-stop after inactivity to save costs
+- (Save) Your work is automatically saved
+- (Lock) You can only access this specific hackathon environment
+- (Cost) Use appropriate instance types for your workloads
+
+Good luck with the hackathon! (Rocket)
